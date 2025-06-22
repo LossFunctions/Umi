@@ -14,14 +14,14 @@ const Footer: React.FC = () => {
           {/* Right column - Social links */}
           <div className="flex justify-start md:justify-end items-center space-x-4">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:umihuss@gmail.com"
               className="hover:underline flex items-center gap-1 hover:-translate-y-0.5 transition-transform"
             >
               <Mail className="w-4 h-4" />
               Email
             </a>
             <a
-              href="https://linkedin.com/in/example"
+              href="https://www.linkedin.com/in/umihussaini/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline flex items-center gap-1 hover:-translate-y-0.5 transition-transform"
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/example"
+              href="https://github.com/LossFunctions"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline flex items-center gap-1 hover:-translate-y-0.5 transition-transform"
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               GitHub
             </a>
             <a
-              href="https://twitter.com/example"
+              href="https://x.com/LossFunctions"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline flex items-center gap-1 hover:-translate-y-0.5 transition-transform"
