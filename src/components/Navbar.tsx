@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
           <nav className="flex items-center space-x-6">
             <div className="flex items-center gap-2">
               <a
-                href="https://github.com"
+                href="https://github.com/LossFunctions/Umi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-900 hover:-translate-y-0.5 transition-transform flex items-center gap-1.5"
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
               </a>
               <div className="flex items-center text-sm text-gray-600">
                 <Star className="w-4 h-4 text-[#ffc480] mr-1 fill-current" />
-                <span>42</span>
+                <span>999+ 🤪</span>
               </div>
             </div>
           </nav>
