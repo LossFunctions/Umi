@@ -16,14 +16,14 @@ function App() {
           {/* Hero section */}
           <div className="mb-12 text-center">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
-              <span className="text-gray-900">Umi's AI-Powered</span>
+              <span className="text-gray-900">Umi's</span>
               <br />
               <span className="text-[#FE4A60]">Automation</span>
               <span className="text-gray-900"> Projects</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Showcasing intelligent automation solutions that save time, reduce costs, 
-              and eliminate repetitive tasks through cutting-edge AI implementations.
+              Showcasing some of my automations that save time, reduce costs, 
+              and eliminate repetitive tasks.
             </p>
           </div>
 

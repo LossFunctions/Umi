@@ -91,6 +91,19 @@ const ProjectCarousel: React.FC<ProjectCarouselProps> = ({
       );
     }
     
+    if (media.type === 'vimeo') {
+      return (
+        <iframe
+          src={media.src}
+          title={media.alt || currentProject.title}
+          className="w-full h-full"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          loading="lazy"
+        />
+      );
+    }
+    
     return (
       <img
         src={media.src}

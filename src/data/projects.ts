@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   media: {
     src: string;
-    type: 'gif' | 'mp4' | 'png';
+    type: 'gif' | 'mp4' | 'png' | 'vimeo';
     alt: string;
   };
   summary: string;
@@ -19,18 +19,18 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'slack-report-bot',
-    title: 'Slack Daily Campaign Report',
+    title: 'Airport Campaigns Analyzer',
     media: {
-      src: 'https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=800',
-      type: 'png',
-      alt: 'Dashboard showing automated Slack reporting system'
+      src: 'https://player.vimeo.com/video/1095466911?h=450a3d0441',
+      type: 'vimeo',
+      alt: 'Video demo of airport campaigns analyzer'
     },
-    summary: 'Automates pulling spend & play-rate data and pushes a Slack digest.',
+    summary: 'Automates pulling top play times by network and enriches data.',
     details: {
-      problem: 'Manual daily exports took 30 minutes each morning for campaign reports',
-      solution: 'Python automation with Google Sheets API integration and Slack webhooks',
+      problem: 'Manual exports took 20 minutes to extract data & was prone to errors',
+      solution: 'Easy drag-and-drop solution leveraging python + populates formatted exportable report',
       time_saved_hours_per_month: 10,
-      tools_used: ['Python', 'Google Sheets API', 'Slack SDK', 'Pandas'],
+      tools_used: ['Python', 'Streamlit','Pandas'],
       repo: 'https://github.com/example/slack-report-bot'
     }
   },
@@ -47,7 +47,7 @@ export const projects: Project[] = [
       problem: 'Support team spent 2 hours daily manually sorting and prioritizing emails',
       solution: 'Machine learning model with NLP to classify emails by urgency and category',
       time_saved_hours_per_month: 40,
-      tools_used: ['Python', 'scikit-learn', 'NLTK', 'Gmail API', 'FastAPI'],
+      tools_used: ['Python', 'scikit-learn', 'NLTK', 'Gmail API', 'FastAPI', 'Google API'],
       repo: 'https://github.com/example/email-classifier'
     }
   },

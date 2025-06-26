@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 text-gray-900 text-sm">
           {/* Left column - Contact info */}
           <div className="flex flex-col md:flex-row items-start md:items-center space-y-2 md:space-y-0 md:space-x-6">
-            <p className="font-mono">Built for efficiency, powered by AI</p>
+            <p className="font-mono">Checkout my links -⫸</p>
           </div>
           
           {/* Right column - Social links */}

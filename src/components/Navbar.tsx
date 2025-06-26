@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
             <h1 className="text-2xl font-bold tracking-tight">
               <a href="#" className="hover:opacity-80 transition-opacity flex items-center gap-2">
                 <Sparkles className="w-6 h-6 text-[#FE4A60]" />
-                <span className="text-gray-900">Umi's AI</span>
+                <span className="text-gray-900">Umi's</span>
                 <span className="text-[#FE4A60]">Automations</span>
               </a>
             </h1>
